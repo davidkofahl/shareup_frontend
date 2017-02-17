@@ -2,7 +2,6 @@
   "name": "share-up",
   "author": "David T. Kofahl",
   "version": "0.0.1",
-  "license": "MIT",
   "private": true,
   "dependencies": {
     "babel-core": "^6.0.0",

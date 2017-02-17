@@ -1,0 +1,105 @@
+{
+  "form": {
+    "id": 1,
+    "endpoint": "/response",
+    "sections": [
+      {
+        "title": "Section 01",
+        "fields": [
+          {
+            "id": 1,
+            "type": "text",
+            "default": "Your Name",
+            "key": "name",
+            "label": "My name is"
+          },
+          {
+            "id": 2,
+            "type": "date",
+            "default": "",
+            "key": "birthday",
+            "label": "and I was born on"
+          },
+          {
+            "id": 3,
+            "type": "select",
+            "default": "gender",
+            "key": "gender",
+            "label": "I am a",
+            "options": [
+              "female",
+              "male",
+              "another gender",
+              "undisclosed"
+            ]
+          },
+          {
+            "id": 4,
+            "type": "text",
+            "default": "zip",
+            "key": "zip",
+            "label": "living in"
+          },
+          {
+            "id": 5,
+            "type": "checkbox",
+            "default": "",
+            "key": "anonymous",
+            "label": "",
+            "options": [
+              "publish story anonymously?"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Section 02",
+        "fields": [
+          {
+            "id": 6,
+            "type": "checkbox",
+            "default": "",
+            "key": "status",
+            "label": "I am currently...",
+            "options": [
+              "working full-time",
+              "working part-time",
+              "looking for work"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Section 03",
+        "fields": [
+          {
+            "id": 7,
+            "type": "checkbox",
+            "default": "",
+            "key": "status",
+            "label": "I am also",
+            "options": [
+              "a caregiver",
+              "raising a family",
+              "a tutor"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Section 04",
+        "fields": [
+          {
+            "id": 8,
+            "type": "textarea",
+            "default": "To me, success means",
+            "key": "status",
+            "label": ""
+          }
+        ]
+      }
+
+    ]
+  }
+}
+

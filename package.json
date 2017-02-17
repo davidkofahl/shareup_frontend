@@ -1,0 +1,56 @@
+{
+  "name": "share-up",
+  "author": "David T. Kofahl",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.1.0",
+    "babel-plugin-transform-class-properties": "^6.22.0",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-es2016": "^6.0.0",
+    "babel-preset-react": "6.5.0",
+    "block-ui": "*",
+    "classnames": "*",
+    "copy-webpack-plugin": "^0.2.0",
+    "css-loader": "*",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "fastclick": "*",
+    "gsap": "1.18.5",
+    "html-loader": "^0.4.3",
+    "ignore-loader": "latest",
+    "ismobilejs": "latest",
+    "json-loader": "^0.5.4",
+    "lodash.throttle": "latest",
+    "matchdep": "latest",
+    "matchmedia-polyfill": "latest",
+    "moment": "^2.13.0",
+    "node-sass": "^3.4.2",
+    "pubsub-js": "1.5.3",
+    "react": "^15.4.0",
+    "react-dom": "^15.1.0",
+    "react-router": "^2.4.1",
+    "sass-loader": "^3.2.0",
+    "stats-webpack-plugin": "^0.2.1",
+    "style-loader": "*",
+    "styleselect": "^0.0.7",
+    "superagent": "*"
+  },
+  "devDependencies": {
+    "lighthouse": "^1.5.1",
+    "json-server": "*",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "scripts": {
+    "watch": "./node_modules/.bin/webpack --watch --config ./config/webpack.development.config.js",
+    "start": "./node_modules/.bin/webpack-dev-server --hot --inline --progress --colors --content-base src --config ./config/webpack.development.config.js",
+    "rest" : "./node_modules/.bin/json-server --watch ./data/db.json",
+    "build": "./node_modules/.bin/webpack --config ./config/webpack.production.config.js"
+ },
+  "engines": {
+    "node": "4.4.2"
+  }
+}
